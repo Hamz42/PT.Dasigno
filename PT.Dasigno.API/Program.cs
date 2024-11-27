@@ -1,13 +1,13 @@
 using Serilog.Events;
 using Serilog;
 using Serilog.Sinks.MSSqlServer;
-using PT.Dasigno.BLL.Extensions.ServiceCollection;
-using PT.Dasigno.BLL.Extensions.ApplicationBuilder;
 using PT.Dasigno.DAL.Context.ContextDasigno;
 using Microsoft.EntityFrameworkCore;
 using PT.Dasigno.BLL.Mappings;
 using FluentValidation;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
+using PT.Dasigno.API.Extensions.ServiceCollection;
+using PT.Dasigno.API.Extensions.ApplicationBuilder;
 
 var builder = WebApplication.CreateBuilder(args);
 
